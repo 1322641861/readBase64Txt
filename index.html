@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>编译展示txt中的base64图片数据</title>
+</head>
+<body>
+    <div>
+        <h3>选择本地图片 -> 图片预览</h3>
+        <input type="file" accept="image/*" onchange="loadFile(event)" id="file1">
+        <div>
+           <img id="previewLocalImg" /> 
+        </div>
+    </div>
+    <script src="js/toBase64.js"></script>
+
+    <div>
+        <h3>加载本地txt文件中的base64数据, 通过二进流加载到img src中</h3>
+        <div>
+            <img id="img1">
+        </div>
+        <div>
+            <img class="img2">
+        </div>
+    </div>
+    <script src="js/showTxtBase64.js"></script>
+</body>
+</html>
