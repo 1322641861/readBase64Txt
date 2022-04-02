@@ -1,3 +1,11 @@
+#### 效果
+
+浏览器并未下载jpg格式图片, 而是下载的txt
+
+![image-20220402103358923](C:\Users\HP\AppData\Roaming\Typora\typora-user-images\image-20220402103358923.png)
+
+
+
 #### 创建base64的txt格式
 
 > 将生成的图片base64数据拷贝到txt文件中
